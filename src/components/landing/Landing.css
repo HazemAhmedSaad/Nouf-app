@@ -1,0 +1,134 @@
+.landing {
+  background-color: #000000;
+  height: 122vh;
+  position: relative;
+}
+.pill-label {
+  width: 316px;
+  padding: 10px 36px;
+  border-radius: 53.37px;
+  height: 48.034019470214844px;
+  background: linear-gradient(180deg, #ffffff0a, #050505);
+  color: #ffffff7a;
+
+  font-size: 18.68px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 18.68px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-top: #ffffff0a 1px solid;
+  border-bottom: #ffffff0a 1px solid;
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.15),
+    0 6px 18px rgba(0, 0, 0, 0.85);
+  position: relative;
+  overflow: hidden;
+}
+.center-element {
+  margin-top: 30px;
+}
+.center-element h1 {
+  font-size: 80px;
+  font-weight: 500;
+  letter-spacing: -3px;
+  line-height: 90px;
+  margin-top: 15px;
+}
+.center-element p {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34.69px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #ffffff80;
+}
+.landing-subtitle {
+  padding: 0 100px;
+}
+
+.clip1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  right: 0;
+}
+
+.clip2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.bubble {
+  position: absolute;
+  width: 900px;
+  /* height: 300px; */
+  bottom: 0;
+  right: 50%;
+  transform: translateX(50%);
+}
+.iphone {
+  position: absolute;
+  width: 330px;
+  height: auto;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 1400px) {
+  .center-element h1 {
+    font-size: 64px;
+    line-height: 52px;
+  }
+  .center-element p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .landing-subtitle {
+    padding: 0 20px;
+  }
+  .bubble {
+    width: 700px;
+  }
+  .iphone {
+    width: 280px;
+  }
+}
+@media (max-width : 1024px) {
+  .bubble {
+    width: 500px;
+  }
+  .iphone {
+    width: 220px;
+  }
+  .center-element h1 {
+    font-size: 48px;
+  }
+  .center-element p {
+    font-size: 18px;
+  }
+  .landing-subtitle {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+    .bubble {
+        width: 400px;
+    }
+    .iphone {
+        width: 180px;
+    }
+    .center-element h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .center-element p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
