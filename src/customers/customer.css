@@ -1,0 +1,45 @@
+.head-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    margin: 50px 0; 
+    
+}
+.tech .img1{
+position: relative;
+}
+.tech .img1 .group{
+    position: absolute;
+    top: -40px;
+    right: 50%;
+    transform: translateX(50%);
+
+}
+.tech .bgimg1 {
+    background-image: url("../assets/cards/Helper.png");
+    background-size: 110% 110%;
+    width: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90px;
+}
+.tech .bgimg1  img{
+    width: 34px;
+
+}
+.tech h5{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 63px;
+}
+.tech p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF80;
+    margin: 20px 0; 
+}
+.tech span{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
