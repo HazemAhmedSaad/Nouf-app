@@ -1,13 +1,14 @@
 import './App.css';
-import Header from './components/header/header';
 import Landing from './components/landing/landing';
-import Customers from './customers/customer';
+import TimeLine from './components/timeline/timeLine';
+import Customers from './components/customers/customer';
 
 function App() {
   return (
     <div className="app">
       <Landing />
       <Customers />
+      <TimeLine />
     </div>
   );
 }

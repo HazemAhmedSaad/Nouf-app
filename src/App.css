@@ -2,3 +2,8 @@ body{
   background-color: #000000 !important;
 
 }
+:root {
+  --main-color: #19719D;
+  --second-color: #092837;
+  --third-color: #F0E5FF;
+}

@@ -1,8 +1,8 @@
 .landing {
-  background-color: #000000;
-  height: 100vh;
+  height: 110vh;
   position: relative;
 }
+
 .pill-label {
   width: 316px;
   padding: 10px 36px;
@@ -23,25 +23,29 @@
   position: relative;
   overflow: hidden;
 }
+
 .center-element {
   margin-top: 30px;
 }
+
 .center-element h1 {
-  font-size: 80px;
+  font-size: 74px;
   font-weight: 500;
   letter-spacing: -3px;
-  line-height: 90px;
+  line-height: 60px;
   margin-top: 15px;
 }
+
 .center-element p {
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 34.69px;
+  line-height: 32px;
   margin-top: 20px;
   margin-bottom: 40px;
   color: #ffffff80;
 }
+
 .landing-subtitle {
   padding: 0 100px;
 }
@@ -65,11 +69,11 @@
 .bubble {
   position: absolute;
   width: 900px;
-  /* height: 300px; */
   bottom: 0;
   right: 50%;
   transform: translateX(50%);
 }
+
 .iphone {
   position: absolute;
   width: 330px;
@@ -80,58 +84,74 @@
 }
 
 @media (max-width: 1400px) {
+  .landing {
+  height: 100vh;
+  }
   .center-element h1 {
     font-size: 64px;
     line-height: 52px;
-        padding: 30px 0;
+    padding: 30px 0;
+  
 
   }
+
   .center-element p {
     font-size: 20px;
     line-height: 24px;
   }
+
   .landing-subtitle {
     padding: 0 20px;
   }
+
   .bubble {
     width: 700px;
   }
+
   .iphone {
     width: 280px;
   }
 }
+
 @media (max-width : 1024px) {
   .bubble {
     width: 500px;
   }
+
   .iphone {
     width: 220px;
   }
+
   .center-element h1 {
     font-size: 48px;
 
   }
+
   .center-element p {
     font-size: 18px;
   }
+
   .landing-subtitle {
     padding: 0 20px;
   }
 }
 
 @media (max-width: 768px) {
-    .bubble {
-        width: 400px;
-    }
-    .iphone {
-        width: 180px;
-    }
-    .center-element h1 {
-        font-size: 36px;
-        line-height: 40px;
-    }
-    .center-element p {
-        font-size: 16px;
-        line-height: 20px;
-    }
+  .bubble {
+    width: 400px;
+  }
+
+  .iphone {
+    width: 180px;
+  }
+
+  .center-element h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .center-element p {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

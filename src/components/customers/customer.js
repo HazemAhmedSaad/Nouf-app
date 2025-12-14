@@ -1,11 +1,11 @@
 import { useState } from "react";
-import "./customer.css";
+import "../customers/customer.css";
 
 const Customers = () => {
 const [techData] = useState([
     {
       id: 1,
-      icon: require("../../src/assets/cards/ic1.png"),
+      icon: require("../../../src/assets/cards/ic1.png"),
       title: "Plug-and-Play API",
       desc: (
         <>
@@ -16,7 +16,7 @@ const [techData] = useState([
     },
     {
       id: 2,
-      icon: require("../../src/assets/cards/ic2.png"),
+      icon: require("../../../src/assets/cards/ic2.png"),
       title: "Accurate Speech Recognition",
       desc: (
         <>
@@ -26,7 +26,7 @@ const [techData] = useState([
     },
     {
       id: 3,
-      icon: require("../../src/assets/cards/ic3.png"),
+      icon: require("../../../src/assets/cards/ic3.png"),
       title: "Intent-Based AI",
       desc: (
         <>
@@ -36,7 +36,7 @@ const [techData] = useState([
     },
     {
       id: 4,
-      icon: require("../../src/assets/cards/ic4.png"),
+      icon: require("../../../src/assets/cards/ic4.png"),
       title: "Enterprise-Grade Security",
       desc: (
         <>
@@ -46,7 +46,7 @@ const [techData] = useState([
     },
     {
       id: 5,
-      icon: require("../../src/assets/cards/ic5.png"),
+      icon: require("../../../src/assets/cards/ic5.png"),
       title: "Easy Customization",
       desc: (
         <>
@@ -56,7 +56,7 @@ const [techData] = useState([
     },
     {
       id: 6,
-      icon: require("../../src/assets/cards/ic6.png"),
+      icon: require("../../../src/assets/cards/ic6.png"),
       title: "Advanced Analytics",
       desc: (
         <>
@@ -72,31 +72,31 @@ const [techData] = useState([
       </p>
       <div className="customer-logos d-flex justify-content-center align-items-center flex-wrap gap-5 py-4">
         <img
-          src={require("../../src/assets/Logos/logo1.png")}
+          src={require("../../../src/assets/Logos/logo1.png")}
           alt="Customer 1"
         />
         <img
-          src={require("../../src/assets/Logos/logo2.png")}
+          src={require("../../../src/assets/Logos/logo2.png")}
           alt="Customer 2"
         />
         <img
-          src={require("../../src/assets/Logos/logo3.png")}
+          src={require("../../../src/assets/Logos/logo3.png")}
           alt="Customer 3"
         />
         <img
-          src={require("../../src/assets/Logos/logo4.png")}
+          src={require("../../../src/assets/Logos/logo4.png")}
           alt="Customer 4"
         />
         <img
-          src={require("../../src/assets/Logos/logo5.png")}
+          src={require("../../../src/assets/Logos/logo5.png")}
           alt="Customer 5"
         />
         <img
-          src={require("../../src/assets/Logos/logo6.png")}
+          src={require("../../../src/assets/Logos/logo6.png")}
           alt="Customer 6"
         />
         <img
-          src={require("../../src/assets/Logos/logo7.png")}
+          src={require("../../../src/assets/Logos/logo7.png")}
           alt="Customer 7"
         />
       </div>
@@ -110,7 +110,7 @@ const [techData] = useState([
                   <div className="tech-card d-flex flex-column align-items-center text-center p-4">
                     <div className="img1">
                       <img
-                        src={require("../../src/assets/cards/Group.png")}
+                        src={require("../../../src/assets/cards/Group.png")}
                         className="group"
                         alt="Tech 1"
                       />

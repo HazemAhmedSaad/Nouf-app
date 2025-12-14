@@ -5,10 +5,11 @@ import "./header.css";
 function Header() {
   return (
     <header className="header container pt-4">
-      <nav className="navbar navbar-expand-lg navbar-dark bg-transparent text-white">
-        <div className="container-fluid">
+      <div className="">
+        <nav className="navbar navbar-expand-lg navbar-dark   text-white">
+        <div className="container-fluid navpos">
           {/* Logo */}
-          <Link className="navbar-brand  logo" to="/">
+          <Link className="navbar-brand   logo" to="/">
             <img src={logo} alt="Logo" />
           </Link>
 
@@ -58,6 +59,8 @@ function Header() {
           </div>
         </div>
       </nav>
+      </div>
+
     </header>
   );
 }
