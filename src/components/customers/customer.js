@@ -102,7 +102,7 @@ const [techData] = useState([
       </div>
       <div className="tech mt-5">
         <h2 className="text-center mb-4 text-white">Features & Tech</h2>
-        <div className="row text-white row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div className="row container text-white row-cols-1 row-cols-md-2 row-cols-lg-3">
           {techData.map((tech) => (
             <div className="col">
               <div className="tech-card-grand">
