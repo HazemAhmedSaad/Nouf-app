@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Nouf-app/static/css/main.2d74fd19.css",
+    "main.js": "/Nouf-app/static/js/main.20cdde11.js",
+    "static/media/Clip1.png": "/Nouf-app/static/media/Clip1.19cd34c5e66a563a8715.png",
+    "static/media/Clip2.png": "/Nouf-app/static/media/Clip2.5db41688cbe99278defc.png",
+    "static/media/Bubble.png": "/Nouf-app/static/media/Bubble.cf096528cf925d7df044.png",
+    "static/media/Iphon.png": "/Nouf-app/static/media/Iphon.29a88b567a575aa4166c.png",
+    "index.html": "/Nouf-app/index.html",
+    "main.2d74fd19.css.map": "/Nouf-app/static/css/main.2d74fd19.css.map",
+    "main.20cdde11.js.map": "/Nouf-app/static/js/main.20cdde11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d74fd19.css",
+    "static/js/main.20cdde11.js"
+  ]
+}
